@@ -27,5 +27,5 @@ python `input` emulator with added functionality
 ```python3
 from scratch import input2
 
-full_name = input2('Full Name', self.title, r'^[a-z ]+$', re.I, r'^[a-z]{2,} [a-z]{2,}$')
+full_name = input2('Full Name: ', self.title, r'^[a-z ]+$', re.I, r'^[a-z]{2,} [a-z]{2,}$')
 ```
