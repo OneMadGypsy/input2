@@ -18,7 +18,8 @@ python `input` emulator with added functionality
 
 * All arguments are optional. When an argumanet is omitted it is defaulted to a "does nothing" value.
 * Formatting is applied before the input is matched. 
-* backspace, Left, Right and the full numlocked Numpad are supported
+* Backspace, Left, Right and the full numlocked Numpad are supported
+* If used, `req` only performs a match if enter is pressed
 
 -------
 
