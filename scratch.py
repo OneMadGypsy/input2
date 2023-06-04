@@ -112,7 +112,7 @@ def input2(prompt:str='', fmt:callable=None, expr:str=None, flags:int=0, req:str
         elif i in (L_ARROW, R_ARROW):
             r = i==R_ARROW
             if -r < d.caret <= (len(d.input)-r):
-                write(('\b', d.char((-1,1)[r]) or '')[r])
+                write(('\b', d.char(1) or '')[r])
                 
         return True
         
