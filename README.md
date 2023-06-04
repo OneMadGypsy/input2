@@ -34,5 +34,5 @@ full_name = input2('Full Name: ', str.title, r'^[a-z ]+$', re.I, r'^[a-z]{2,} [a
 ```python3
 from scratch import input2
 
-move = input2('What would you like to do? ', None, r'^[a-z]{,5}$', re.I, r'^(east|west|north|south|look)$')
+move = input2('Which direction would you like to go? ', None, r'^[a-z]{,5}$', re.I, r'^(east|west|north|south)$')
 ```
